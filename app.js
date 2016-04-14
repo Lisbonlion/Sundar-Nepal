@@ -177,7 +177,6 @@ class Login extends Component {
       <div>
         <button onClick={this.checkLogin.bind(this)} className="btn btn-default">Create from Facebook</button>
         {' '}
-        <a href="http://images.janaklabs.com" className="btn btn-default">Upload</a>
       </div>
     )
   }
