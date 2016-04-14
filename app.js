@@ -121,9 +121,9 @@ class App extends Component {
         </div>
         <div className="alert alert-info footer-info">
           <ul>
-            <li>Made by, <a href="http://twitter.com/sbspk"><i className="fa fa-twitter"></i> @sbspk</a>, <a href="https://facebook.com/return.undefined"><i className="fa fa-facebook"></i> Subash Pathak</a></li>
+            <li>A cura di <a href="http://www.socialday.org">Social Day</a></li>
             <li>Tested only in latest version of Chrome and Firefox. </li>
-            <li>Code for this app is available on <a href="https://github.com/Subash/Sundar-Nepal" target="_blank">Github</a> </li>
+            <li>Forked from the original <a href="https://github.com/Subash/Sundar-Nepal" target="_blank">Sundar-Nepal</a> project. </li>
           </ul>
         </div>
       </div>
