@@ -53,7 +53,7 @@ class App extends Component {
       util.postToFacebook({
         accessToken: this.state.userDetails.accessToken,
         image: util.dataURItoBlob(this.state.userImageUrl),
-        message: 'Get your pic with Nepalese flag from http://sundar-nepal.subash.me',
+        message: 'Crea la tua immagine profilo per supportare il Social Day su https://actiondaypic.herokuapp.com/',
         userID: this.state.userDetails.userID
       }).then(() => {
         alert('Posted Successfully');
@@ -108,7 +108,7 @@ class App extends Component {
     } else {
       imageBoxContent = (
         <div className="post">
-          <a className="btn btn-default" href={userImageUrl} download="profile-nepal.jpg">Download</a>
+          <a className="btn btn-default" href={userImageUrl} download="profile-SDY.jpg">Download</a>
         </div>
       );
     }
